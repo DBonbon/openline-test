@@ -3,7 +3,7 @@ server {
     listen [::]:80 default_server;
     proxy_read_timeout 120s;
 
-    server_name openline.site.test _;
+    server_name 161.35.206.245 openline.site openline.site.test _;
 
     # do not touch - uncommented when enable_ssl.sh is used
     #mkcert listen 443 ssl;
