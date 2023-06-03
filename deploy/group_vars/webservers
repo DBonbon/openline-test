@@ -1,0 +1,8 @@
+---
+python_version: python3
+ansistrano_deploy_to: /mnt/persist/www/openline
+database_name: openline
+database_user: openline
+project_slug: openline
+domain_stage: stage.openline.site
+domain_prod: openline.site
